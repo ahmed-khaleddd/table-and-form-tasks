@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>  Novell Services Login</h1>
+<form >
+    <div>
+        <!-- user name -->
+        
+        <label for="txt">user name </label>
+        <input  id="txt" type="text"required> </div>
+        <br>
+        
+       <div> <label for="pass">password</label>
+        <input id="pass" type="password" required></div>
+         <br>
+        <div>
+            <!-- city of employment-->
+            <label for="tt">City Of Employment</label>
+            <input type="text" id="tt">
+        </div>
+        <br>
+        <div>
+            <!-- web server-->
+            <label for="server">Web Server</label>
+           <select id="server">
+            <option>-- Choose a server--</option>
+            <option>Server 1</option>
+            <option>Server 2</option>
+            <option>Server 3</option>
+           </select>
+        </div>
+        <br>
+        <div>
+            <!-- role -->
+            <p>Please specify your role</p>
+            <input type="radio" name="role" id="admin">
+
+            <label for="admin">Admin</label><br>
+
+            <input type="radio" name="role" id="engineer">
+
+            <label for="engineer">Engineer</label><br>
+
+            <input type="radio" name="role" id="manager">
+
+            <label for="manager">Manager</label><br>
+
+            <input type="radio" name="role" id="guest">
+
+            <label for="manager">Guest</label>
+        </div><br>
+        <div>
+            <!-- single sign-on-->
+         <p>Single Sign-on to the following</p>
+
+         <input type="checkbox" id="mail">
+
+         <label for="mail">Mail</label><br>
+
+          <input type="checkbox" id="payroll">
+
+         <label for="payroll">Payroll</label><br>
+
+          <input type="checkbox" id="Self-service">
+
+         <label for="Self-service">Self-service</label>
+
+        </div><br>
+
+          <!-- buttons-->
+           <div>
+            <button type="submit">
+                Login
+            </button>
+            <button type="reset">reset</button>
+           </div>
+</form>
+</body>
+</html>
